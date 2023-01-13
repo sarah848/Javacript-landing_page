@@ -1,12 +1,124 @@
-.Summary{
-float:right;
+body{
+  background-size: cover;
+}
+
+header{
+  background-color: ;
 }
 
 .Menu{
+  position:relative;
+}
+
+ul{
+  margin-right: 50px;
+  margin-left: 900px;
+}
+
+li{
+  display:inline-block;
+  margin-right: 30px;
+}
+
+a{
+  text-decoration: none;
+  font-size: large;
+  color: gray;
+  text-shadow: #FC0 1px 0 10px;
+}
+
+/* unvisited link */
+a:link {
+  color: grey;
+}
+
+/* visited link */
+a:visited {
+  color:chocolate;
+}
+
+/* mouse over link */
+a:hover {
+  color: chocolate;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+button{
+  border-radius: 6px;
+      font-size: large;
+      border: 5px black;
+      padding:10px;
+      opacity: 0.8;
+      color: black;
+      font-weight: ;
+      background-color:chocolate;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/*
+#dottedlines img{
+  width: 220px;
+  height: 170px;
+  margin-left: 500px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+*/
+#bot{
+  
+}
+
+#bot img{
+    width: 120px;
+    height: 120px;
+    margin-left: 60px;
+    margin-right: 90px;
+    margin-bottom: 50px;
+    margin-top:50px;
+    border-radius: 15px;
+    background-color:;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+  .paragraph{
+    font-size: large;
+  display:inline;
+  margin-top:60px;
+  margin-bottom: 30px;
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 15px;
+  border-color: grey;
+  padding: 10px;
+  width:fit-content;
+  height: fit-content;
+  background-color: rgb(224, 225, 225);
+  opacity: 1;
+  color: rgb(72, 71, 71);
+  box-shadow: 5px 10px rgb(205, 126, 70);
 
 }
 
-#Image{
-float:left;
+p{
+  margin-bottom: 0.5px;
+}
+
+#section1{
+  background-color:;
+  display:flex;
+}
+
+#section2{
+  background-color:;
+  display:flex;
+}
+
+#section3{
+  background-color:;
+  display:flex;
 }
 
